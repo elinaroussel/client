@@ -1,0 +1,115 @@
+header {
+  background-color: #FFC4C4;
+  padding: 1%;
+  text-align: center;
+}
+
+body {
+  background-color: #51394B;
+  margin: 0;
+}
+
+.total-page {
+  background-color: white;
+  margin: 0 7% 0 7%;
+  padding : 3%
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  width: 80%;
+  border: 1px solid #ffc4c4;
+  border-radius: 7px;
+  padding: 1%;
+  margin: 1%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.msg {
+  width: 80%;
+  height: 100px;
+  padding: 1%;
+  border-radius: 7px;
+  font-size: 16px;
+  resize: none;
+}
+
+.pseudo {
+  width: 20%;
+  height: 18px;
+  padding: 1%;
+  border-radius: 7px;
+  font-size: 16px;
+  resize: none;
+}
+
+button {
+  background: #ffc4c4;
+  padding: 1%;
+  margin-top: 2%;
+  border-radius: 7px;
+  font-size: 16px;
+  vertical-align: middle;
+  align-self: flex-start;
+}
+button:hover {
+  background: #51394B;
+  color: white;
+}
+
+.dark-mode header {
+  background-color: #18474E;
+  color: white;
+  padding: 1%;
+  text-align: center;
+}
+
+.dark-mode .total-page {
+  background-color: #94C9A9;
+  margin: 0 7% 0 7%;
+  padding : 3%
+}
+
+.dark-mode li {
+  width: 80%;
+  background-color: #18474E;
+  border: 1px solid #18474E;
+  color : white;
+  border-radius: 7px;
+  padding: 1%;
+  margin: 1%;
+}
+
+.dark-mode textarea {
+  background-color: #18474E;
+  color : white;
+  width: 80%;
+  height: 100px;
+  padding: 1%;
+  border-radius: 7px;
+  font-size: 16px;
+  resize: none;
+}
+
+.dark-mode button {
+  background: #18474E;
+  color: white;
+  padding: 1%;
+  margin-top: 2%;
+  border-radius: 7px;
+  font-size: 16px;
+  vertical-align: middle;
+  align-self: flex-start;
+}
+.dark-mode button:hover {
+  background: white;
+  color: black;
+}

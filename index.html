@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>so empty</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-  <p>I am so empty...</p>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Messagerie</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <header>
+    <h1>Messagerie</h1>
+  </header>
+  <main>
+    <div class="total-page">
+      <section>
+        <h2>Derniers messages</h2>
+        <button id="update-button">Mettre à jour les messages</button>
+        <button id="theme-button">Changer de thème</button>
+        <ul>
+          <li>Je suis le premier message</li>
+          <li>Je suis le 2e message</li>
+          <li>Je suis le 3e message</li>
+          <li>Je suis le 4e message</li>
+          <li>Je suis le 5e message</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Envoyer un message</h2>
+        <textarea class="pseudo" placeholder="Pseudo"></textarea>
+        <textarea class="msg" placeholder="Nouveau message"></textarea>
+        <button id="post-button">Envoyer</button>
+      </section>
+    </div>
+  </main>
   <script src="script.js"></script>
+</body>
+
 </html>
