@@ -51,6 +51,15 @@ section {
   resize: none;
 }
 
+.url {
+  width: 30%;
+  height: 18px;
+  padding: 1%;
+  border-radius: 7px;
+  font-size: 16px;
+  resize: none;
+}
+
 button {
   background: #ffc4c4;
   padding: 1%;

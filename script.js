@@ -1,4 +1,10 @@
-let url = 'https://59618aaa-67a4-4fcc-86ec-90a68119c752-00-9sz0b4t0uvbm.picard.replit.dev';
+let url = 'https://server-1i4a.onrender.com';
+
+document.getElementById("url-button").addEventListener("click", () => {
+   let urlInput = document.querySelector(".url").value.trim();
+   url = urlInput;
+   fetchMessages();
+});
 
 function update(messages) {
    const messageList = document.querySelector("ul");
